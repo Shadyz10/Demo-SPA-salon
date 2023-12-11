@@ -1,0 +1,26 @@
+[
+    {
+        "login": "user",
+        "password": "$2y$10$si3uv27bnxOscReC\/m3sieUOUtWB6qWGkuc4tKo0Gf.OeFu7XcnM."
+    },
+    {
+        "login": "admin",
+        "password": "$2y$10$cGj2GNuC7AeselIENzqC0u\/LQ.CH7UaVqKCA8eQ7PLAY3DSzKnl8S"
+    },
+    {
+        "login": "Sam",
+        "password": "$2y$10$80XLVNPeTkY2gybW9F9XXuCTT4jTZH.3HrbrCgKexnYRN2vF3YCVm"
+    },
+    {
+        "login": "Anna",
+        "password": "$2y$10$MFnu41XFouMxPeuvpRKCG.csMC1WC6DM4\/EA6G3fsD0ktL1vaINQ."
+    },
+    {
+        "login": "Sergey",
+        "password": "$2y$10$sWE34efyQz.pS.z9qHUzBORtp77XjZKypjI4MbRsifWajIGaG7Z6y"
+    },
+    {
+        "login": "Margo",
+        "password": "$2y$10$\/Apzoly\/4QH5MQT.ys1oku9LWAGPeg9HGK205PXhzcUIIBtcMoARK"
+    }
+]
