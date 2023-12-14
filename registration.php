@@ -6,13 +6,14 @@ if (isset($_SESSION['user'])) {
 }
 
 require "funcs.php";
-// print_r($_POST["login"]);
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $login    = $_POST["login"];
     $password = $_POST["password"];
     if (existsUser($login)) {
         $error = "Такой пользователь уже зарегистрирован";
-    } else {
+    }
+    if(null !== $login || null !== $password){
         addUser($login, $password);
         header("location: login.php");
         exit();
@@ -46,6 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <input type="submit" value="Зарегистрироваться">
     </form>
+    <p>Уже есть аккаунт? <a href="/login.php">Войти</a></p>
 </body>
 
 </html>

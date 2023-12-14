@@ -6,9 +6,7 @@ function users(){
     return $users;
 }
 
-
-
-// Проверка, существует ли пользователь с указанным логином +
+// Проверка, существует ли пользователь с указанным логином
 function existsUser($login){
     $users = users();
     foreach ($users as $user) {
@@ -34,8 +32,6 @@ function getUsersList(){
     return $usersList;
 }
 
-
-
 // Добавление пользователя в БД
 function addUser($login, $password){
     $file_json  = "users.json";
@@ -47,7 +43,7 @@ function addUser($login, $password){
         'password' => $hashedPas
     ];
     $jsonString = json_encode($data, JSON_PRETTY_PRINT);
-    // Write in the file
+    // Запись в файл
     $fp = fopen($file_json, 'w');
     fwrite($fp, $jsonString);
     fclose($fp);

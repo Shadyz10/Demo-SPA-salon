@@ -1,14 +1,14 @@
 <?php
 require 'funcs.php';
-$username = $_POST['login'] ?? null;
+$login = $_POST['login'] ?? null;
 $password = $_POST['password'] ?? null;
 
-if(null !== $username || null !== $password) {
+if(null !== $login || null !== $password) {
     $check = checkPassword($username, $password);
     if($check){
         session_start();
         $_SESSION['auth'] = true;
-        $_SESSION['user'] = $username;
+        $_SESSION['user'] = $login;
         $_SESSION['password'] = $password;
         header('location: index.php');
         exit();
@@ -45,6 +45,7 @@ if(!$auth){ ?>
 
             <input type="submit" value="Войти">
         </form>
+        <p>Ещё нет аккаунта? <a href="/registration.php">Регистрация</a></p>
     </body>
 </html>
 <?php } ?>

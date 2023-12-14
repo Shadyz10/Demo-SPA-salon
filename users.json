@@ -16,11 +16,11 @@
         "password": "$2y$10$MFnu41XFouMxPeuvpRKCG.csMC1WC6DM4\/EA6G3fsD0ktL1vaINQ."
     },
     {
-        "login": "Sergey",
-        "password": "$2y$10$sWE34efyQz.pS.z9qHUzBORtp77XjZKypjI4MbRsifWajIGaG7Z6y"
-    },
-    {
         "login": "Margo",
         "password": "$2y$10$\/Apzoly\/4QH5MQT.ys1oku9LWAGPeg9HGK205PXhzcUIIBtcMoARK"
+    },
+    {
+        "login": "Sergey",
+        "password": "$2y$10$0y74s1XQK5MGMkvvUDzm7e\/0l9qP3BePyzlX6rRbBaJZse\/v6fWpi"
     }
 ]
