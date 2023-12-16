@@ -18,6 +18,9 @@ function existsUser($login){
     return false;
 }
 
+// $login = 'Sergey';
+// var_dump(existsUser($login));
+
 // Сделал, но не вижу смысла использовать её тут
 function getUsersList(){
     $users = users();
@@ -59,6 +62,10 @@ function checkPassword($login, $password){
     }
     return false;
 }
+
+// $login = 'admin';
+// $password = 'asd';
+// var_dump(checkPassword($login, $password));
 
 // Определение имени пользователя
 function getCurrentUser(){

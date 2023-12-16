@@ -12,15 +12,23 @@
         "password": "$2y$10$80XLVNPeTkY2gybW9F9XXuCTT4jTZH.3HrbrCgKexnYRN2vF3YCVm"
     },
     {
-        "login": "Anna",
-        "password": "$2y$10$MFnu41XFouMxPeuvpRKCG.csMC1WC6DM4\/EA6G3fsD0ktL1vaINQ."
+        "login": "Sergey",
+        "password": "$2y$10$Lxps27gy6RxwUqJQqINFHeVbxbO5qtHQ7.m7mHKPZlpLvHsxTLax6"
     },
     {
         "login": "Margo",
-        "password": "$2y$10$\/Apzoly\/4QH5MQT.ys1oku9LWAGPeg9HGK205PXhzcUIIBtcMoARK"
+        "password": "$2y$10$WK8a27hEa.IgNRz1owwpfevIwthd7wBfZD\/vWtY5aLmDC8ecQsTWe"
     },
     {
-        "login": "Sergey",
-        "password": "$2y$10$0y74s1XQK5MGMkvvUDzm7e\/0l9qP3BePyzlX6rRbBaJZse\/v6fWpi"
+        "login": "aaa",
+        "password": "$2y$10$HbGdeMiBDOlyYM0wiOvGAey7GG\/wL2iAGmYryMNLLj75haqtb6jGS"
+    },
+    {
+        "login": "Marmeladka",
+        "password": "$2y$10$w9Necum8vuwk7dyi0WInYOysADfvCgGtYvMItmJ4CBD\/73krmv.N2"
+    },
+    {
+        "login": "asd",
+        "password": "$2y$10$vz26UeVcHJyqNMFLp0Kjl.zQS6HxzbULHgXsPeIhZzEiaKaXcX5X6"
     }
 ]

@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 ?>
 
 
@@ -18,7 +18,7 @@
             <nav class="nav-bar">
                 <a class="nav-item" href="">Услуги</a> 
                 <a class="nav-item" href="">Контакты</a> 
-                <a class="nav-item" href="">О нас</a> 
+                <a class="nav-item" href="registration.php">Регистрация</a> 
                 <a class="nav-item" href="">Выход</a> 
             </nav>
             <p class="brand">Добро пожаловать, <?php echo $_SESSION['user']; ?> в PARADISE

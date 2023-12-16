@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.form-holder {
+  overflow: hidden;
+  background-color: orange;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+
+a:hover{
+    border-bottom: 1px solid brown;
+}
