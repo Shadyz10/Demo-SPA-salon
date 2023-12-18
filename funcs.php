@@ -6,6 +6,7 @@ function users(){
     return $users;
 }
 
+
 // Проверка, существует ли пользователь с указанным логином
 function existsUser($login){
     $users = users();
@@ -73,5 +74,32 @@ function getCurrentUser(){
         return $_SESSION['user'];
     } else {
         return null;
+    }
+}
+
+function calculateDaysUntilBirthday($birthday)
+{
+    $today    = new DateTime();
+    $birthday = new DateTime($birthday);
+    $birthday->setDate($today->format('Y'), $birthday->format('m'), $birthday->format('d'));
+
+    if ($today > $birthday) {
+        $birthday->modify('+1 year');
+    }
+
+    $interval = $today->diff($birthday);
+    return $interval->days;
+}
+
+function getDiscountMessage($birthday, $daysUntilBirthday)
+{
+    $today    = new DateTime();
+    $birthday = new DateTime($birthday);
+    $birthday->setDate($today->format('Y'), $birthday->format('m'), $birthday->format('d'));
+
+    if ($today->format('md') === $birthday->format('md')) {
+        return "С днем ​​рождения! Получите скидку 5% на все услуги салона!";
+    } else {
+        return "До дня рождения осталось всего " . $daysUntilBirthday . " дней!";
     }
 }

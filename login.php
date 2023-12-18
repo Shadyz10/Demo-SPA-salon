@@ -10,14 +10,12 @@ if(null !== $login || null !== $password) {
         $_SESSION['auth'] = true;
         $_SESSION['user'] = $login;
         $_SESSION['password'] = $password;
+        $_SESSION['logtime'] = time();
         header('location: index.php');
     } else{
         $error = 'Неверный логин или пароль';
     }
 }
-
-print_r($login);
-print_r($password);
 
 $auth = $_SESSION['auth'];
 ?>
